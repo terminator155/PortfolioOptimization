@@ -1,0 +1,4 @@
+export CLASS_PATH=/home/zlw/workspace/PortfolioOpti/mongo-java-driver-2.13.0.jar,/home/zlw/workspace/PortfolioOpti/mongo-hadoop-core-1.3.3.jar,/home/zlw/workspace/PortfolioOpti/ejml/EJML-equation-0.26.jar,/home/zlw/workspace/PortfolioOpti/ejml/EJML-core-0.26.jar
+export HADOOP_CLASSPATH=/home/zlw/workspace/PortfolioOpti/mongo-java-driver-2.13.0.jar:/home/zlw/workspace/PortfolioOpti/mongo-hadoop-core-1.3.3.jar:/home/zlw/workspace/PortfolioOpti/ejml/EJML-equation-0.26.jar:/home/zlw/workspace/PortfolioOpti/ejml/EJML-core-0.26.jar
+/usr/local/hadoop/bin/hadoop jar PortfolioOpti.jar -libjars ${CLASS_PATH} PortfolioOpti
+#/usr/local/hadoop/bin/hadoop jar PortfolioOpti.jar PortfolioOpti
